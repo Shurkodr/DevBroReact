@@ -1,66 +1,20 @@
 import React,{Component} from "react";
+import featuresAnimation from "../scripts/featuresAnimation";
+import parallax from "../scripts/parallax";
 
 class MainInfo extends Component{
   constructor(props) {
     super(props);
-    this.featuresAnimation = this.featuresAnimation.bind(this);
-    this.parallax = this.parallax.bind(this);
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.featuresAnimation);
-    window.addEventListener('scroll', this.parallax);
+    window.addEventListener('scroll', featuresAnimation);
+    window.addEventListener('scroll', parallax);
   }
 
   componentWillUnmount() {
-    window.removeEventListener('scroll', this.featuresAnimation);
-    window.removeEventListener('scroll', this.parallax);
-  }
-
-  featuresAnimation() {
-    let featuresBlockOne = document.querySelector('.feature-animation-one');
-    let featuresBlockOnePostion = {
-      top: window.pageYOffset + featuresBlockOne.getBoundingClientRect().top,
-    };
-    let featuresBlockTwo = document.querySelector('.feature-animation-two');
-    let featuresBlockTwoPostion = {
-      top: window.pageYOffset + featuresBlockTwo.getBoundingClientRect().top,
-    };
-    let featuresBlockThree = document.querySelector('.feature-animation-three');
-    let featuresBlockThreePostion = {
-      top: window.pageYOffset + featuresBlockThree.getBoundingClientRect().top,
-    };
-    let windowsPosition = {
-      bottom : window.pageYOffset + document.documentElement.clientHeight,
-    };
-
-    if (windowsPosition.bottom > (featuresBlockOnePostion.top + 130)) {
-      featuresBlockOne.style.opacity = "1";
-      featuresBlockOne.style.transform = "rotateY(0)";
-    } else {
-      featuresBlockOne.style.opacity = "0";
-      featuresBlockOne.style.transform = "rotateY(90deg)";
-    }
-    if (windowsPosition.bottom > (featuresBlockTwoPostion.top + 130)) {
-      featuresBlockTwo.style.opacity = "1";
-      featuresBlockTwo.style.transform = "rotateY(0)";
-    } else {
-      featuresBlockTwo.style.opacity = "0";
-      featuresBlockTwo.style.transform = "rotateY(-90deg)";
-    }
-    if (windowsPosition.bottom > (featuresBlockThreePostion.top + 130)) {
-      featuresBlockThree.style.opacity = "1";
-      featuresBlockThree.style.transform = "scale(1)";
-    } else {
-      featuresBlockThree.style.opacity = "0";
-      featuresBlockThree.style.transform = "scale(.5)";
-    }
-  }
-
-  parallax() {
-    let mainStone = document.querySelector('.main-stone');
-    let scroll_count = document.documentElement.scrollTop;
-    mainStone.style.transform = `translate(0,${scroll_count / 200 * 80}px)`;
+    window.removeEventListener('scroll', featuresAnimation);
+    window.removeEventListener('scroll', parallax);
   }
 
   render() {

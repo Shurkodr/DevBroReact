@@ -25,7 +25,6 @@ class Header extends Component {
 
   ChangeHeaderBackground() {
     let scroll_count = document.documentElement.scrollTop;
-    console.log(scroll_count);
     if (scroll_count > 270) {
       this.setState((prevState) => {
         prevState.headerStyle = 'header-layout header-black';
