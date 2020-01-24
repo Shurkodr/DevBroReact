@@ -5,8 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/scss/.sass-cache/ea6f08637e1db7dc0e33eedddf715c50a098ce8c/_we-are-diff-style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/scss/.sass-cache/ea6f08637e1db7dc0e33eedddf715c50a098ce8c/_we-are-diff-style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/scss/_we-are-diff-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/scss/_we-are-diff-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/scss/.sass-cache/ea6f08637e1db7dc0e33eedddf715c50a098ce8c/_reset.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/scss/.sass-cache/ea6f08637e1db7dc0e33eedddf715c50a098ce8c/_reset.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/scss/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/scss/_reset.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579686719395</updated>
       <workItem from="1579686720782" duration="2263000" />
-      <workItem from="1579689253459" duration="51960000" />
+      <workItem from="1579689253459" duration="53279000" />
     </task>
     <servers />
   </component>
