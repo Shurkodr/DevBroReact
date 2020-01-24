@@ -1,0 +1,267 @@
+$height-of-nav-bar: 19px;
+
+.header-layout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  background-color: transparent;
+  transition: background-color .5s;
+  z-index: 3; //чтобы остальное было внизу, может потом убрать
+
+  &__logo {
+    width: 70px;
+    height: 41px;
+
+    .logo-link {
+      display: inline-block;
+      text-decoration: none;
+      height: 100%;
+    }
+  }
+
+  &__navigation-bar {
+    width: 449px;
+    height: $height-of-nav-bar;
+
+    .navigation-list {
+      list-style-type: none;
+      font-size: 16px;
+      letter-spacing: 0.57px;
+      line-height: $height-of-nav-bar;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+
+      &__item{
+        white-space: nowrap;
+        position: relative;
+
+        .submenu-list {
+          list-style-type: none;
+          font-size: 16px;
+          line-height: $height-of-nav-bar;
+          display: none;
+          background-color: #1F2427;
+
+          &:hover {
+            display: block;
+            position: absolute;
+          }
+
+          &__item {
+            width: 200px;
+            padding: 10px;
+            border-bottom: 1px solid #4b5053;
+          }
+        }
+
+        @mixin hover-triangle($color) {
+          content: "";
+          display: inline-block;
+          box-sizing: border-box;
+          width: 6.5px;
+          height: 3px;
+          border: 3px solid transparent;
+          border-top: 3px solid $color;
+          margin-left: 4px;
+        }
+
+        .dropdown:after {
+          @include hover-triangle (#fff);
+        }
+
+        .nav-link {
+          text-decoration: none;
+          color: #fff;
+
+          &:hover {
+            color: #0fafcf;
+
+            & + .submenu-list {
+              display: block;
+              position: absolute;
+            }
+          }
+
+          &:hover.dropdown:after {
+            @include hover-triangle (#0fafcf);
+          }
+        }
+      }
+    }
+  }
+
+  &__social {
+    width: 136px;
+    .social-list {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+
+      &__item {
+        width: 32px;
+        height: 32px;
+        .socio-link {
+          display: inline-block;
+          height: 100%;
+
+          img {
+            background-size: contain;
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+    }
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation-bar-mobile {
+    display: none;
+    position: fixed;
+    z-index: 50;
+    background-color: #1F2427;
+    width: 100%;
+    height: 100%;
+    top: 100px;
+    left: 0;
+
+    .navigation-list {
+      list-style-type: none;
+      font-size: 18px;
+      letter-spacing: 0.57px;
+      line-height: $height-of-nav-bar;
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+      flex-direction: column;
+
+      &__item{
+        white-space: nowrap;
+        position: relative;
+        padding: 20px 0 20px 10px;
+
+        .nav-link {
+          display: inline-block;
+          border-bottom: 1px solid #4b5053;
+          width: 100%;
+          text-align: left;
+        }
+
+        .submenu-list {
+          list-style-type: none;
+          font-size: 16px;
+          line-height: $height-of-nav-bar;
+          display: none;
+          background-color: #1F2427;
+
+          &:hover {
+            display: block;
+          }
+
+          &__item {
+            padding: 10px;
+          }
+        }
+
+        @mixin hover-triangle($color) {
+          content: "";
+          display: inline-block;
+          box-sizing: border-box;
+          width: 6.5px;
+          height: 3px;
+          border: 3px solid transparent;
+          border-top: 3px solid $color;
+          margin-left: 4px;
+        }
+
+        .dropdown:after {
+          @include hover-triangle (#fff);
+        }
+
+        .nav-link {
+          text-decoration: none;
+          color: #fff;
+
+          &:hover {
+            color: #0fafcf;
+
+            & + .submenu-list {
+              display: block;
+            }
+          }
+
+          &:hover.dropdown:after {
+            @include hover-triangle (#0fafcf);
+          }
+        }
+      }
+    }
+  }
+
+  .open {
+    display: none;
+  }
+
+  .active {
+    display: none;
+  }
+
+
+}
+
+.header-black {
+  background-color: #1F2427;
+}
+
+.header-mobile {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 770px) {
+  .header-layout {
+
+    &__logo {
+
+
+      .logo-link {
+
+      }
+    }
+
+    &__navigation-bar {
+      display: none;
+    }
+
+    &__social {
+      display: none;
+    }
+
+    .hamburger {
+      display: inline-block;
+    }
+
+    .open {
+      display: block;
+    }
+
+    .active {
+      display: block;
+    }
+  }
+
+  .header-mobile {
+    background-color: #1F2427;
+  }
+
+
+}
