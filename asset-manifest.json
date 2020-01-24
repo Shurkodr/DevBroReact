@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/DevBroReact/static/css/main.f97c3d0e.chunk.css",
+    "main.js": "/DevBroReact/static/js/main.3a8ca1b9.chunk.js",
+    "main.js.map": "/DevBroReact/static/js/main.3a8ca1b9.chunk.js.map",
+    "runtime-main.js": "/DevBroReact/static/js/runtime-main.67bb4c0f.js",
+    "runtime-main.js.map": "/DevBroReact/static/js/runtime-main.67bb4c0f.js.map",
+    "static/js/2.3aa1ea16.chunk.js": "/DevBroReact/static/js/2.3aa1ea16.chunk.js",
+    "static/js/2.3aa1ea16.chunk.js.map": "/DevBroReact/static/js/2.3aa1ea16.chunk.js.map",
+    "index.html": "/DevBroReact/index.html",
+    "precache-manifest.a35c75e15371d39e09f739c868e37a40.js": "/DevBroReact/precache-manifest.a35c75e15371d39e09f739c868e37a40.js",
+    "service-worker.js": "/DevBroReact/service-worker.js",
+    "static/css/main.f97c3d0e.chunk.css.map": "/DevBroReact/static/css/main.f97c3d0e.chunk.css.map",
+    "static/js/2.3aa1ea16.chunk.js.LICENSE": "/DevBroReact/static/js/2.3aa1ea16.chunk.js.LICENSE",
+    "static/media/logo.svg": "/DevBroReact/static/media/logo.77f8732a.svg",
+    "static/media/mail.svg": "/DevBroReact/static/media/mail.d9ef1a05.svg",
+    "static/media/skype.svg": "/DevBroReact/static/media/skype.8a6a6783.svg",
+    "static/media/stone-main.png": "/DevBroReact/static/media/stone-main.09298f5d.png",
+    "static/media/twitter.svg": "/DevBroReact/static/media/twitter.c5ce43f7.svg",
+    "static/media/style.css": "/DevBroReact/static/media/we-are-diff-img.5dfdc4c4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67bb4c0f.js",
+    "static/js/2.3aa1ea16.chunk.js",
+    "static/css/main.f97c3d0e.chunk.css",
+    "static/js/main.3a8ca1b9.chunk.js"
+  ]
+}
