@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DevBroReact/static/css/main.f97c3d0e.chunk.css",
+    "main.css": "/DevBroReact/static/css/main.c572c738.chunk.css",
     "main.js": "/DevBroReact/static/js/main.e8451cb0.chunk.js",
     "main.js.map": "/DevBroReact/static/js/main.e8451cb0.chunk.js.map",
     "runtime-main.js": "/DevBroReact/static/js/runtime-main.67bb4c0f.js",
@@ -8,9 +8,9 @@
     "static/js/2.28715da1.chunk.js": "/DevBroReact/static/js/2.28715da1.chunk.js",
     "static/js/2.28715da1.chunk.js.map": "/DevBroReact/static/js/2.28715da1.chunk.js.map",
     "index.html": "/DevBroReact/index.html",
-    "precache-manifest.2bc64f9cf5ba642eb14255b1b8a381fc.js": "/DevBroReact/precache-manifest.2bc64f9cf5ba642eb14255b1b8a381fc.js",
+    "precache-manifest.88ed4d81396794301e0c3a06ebbc8f13.js": "/DevBroReact/precache-manifest.88ed4d81396794301e0c3a06ebbc8f13.js",
     "service-worker.js": "/DevBroReact/service-worker.js",
-    "static/css/main.f97c3d0e.chunk.css.map": "/DevBroReact/static/css/main.f97c3d0e.chunk.css.map",
+    "static/css/main.c572c738.chunk.css.map": "/DevBroReact/static/css/main.c572c738.chunk.css.map",
     "static/js/2.28715da1.chunk.js.LICENSE": "/DevBroReact/static/js/2.28715da1.chunk.js.LICENSE",
     "static/media/logo.svg": "/DevBroReact/static/media/logo.77f8732a.svg",
     "static/media/mail.svg": "/DevBroReact/static/media/mail.d9ef1a05.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.67bb4c0f.js",
     "static/js/2.28715da1.chunk.js",
-    "static/css/main.f97c3d0e.chunk.css",
+    "static/css/main.c572c738.chunk.css",
     "static/js/main.e8451cb0.chunk.js"
   ]
 }
