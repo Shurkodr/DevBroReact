@@ -354,6 +354,31 @@ body {
       .we-are-diff-layout .we-are-diff-block__description .mark-diff {
         color: #06C6FF; }
 
+@media screen and (max-width: 770px) {
+  .we-are-diff-layout {
+    padding-top: 215px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center; }
+    .we-are-diff-layout .we-are-diff-block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 350px; }
+      .we-are-diff-layout .we-are-diff-block__header {
+        font-size: calc(50px * 0.7);
+        letter-spacing: calc(1.13px * 0.7);
+        line-height: calc(66px * 0.7);
+        width: 350px; }
+      .we-are-diff-layout .we-are-diff-block__description {
+        width: auto;
+        font-size: calc(20px * 0.9);
+        letter-spsacing: calc(0.71px * 0.8);
+        line-height: calc(30px * 0.7);
+        padding-top: 25px;
+        padding-left: 28px; }
+        .we-are-diff-layout .we-are-diff-block__description .mark-diff {
+          color: #06C6FF; } }
 .main-info {
   background-image: radial-gradient(at 78% 365px, #06c6ff, #1a455a, #1c3348, #1d2836, #1f2427 60%);
   padding-bottom: 146px; }

@@ -48,5 +48,46 @@
 }
 
 @media screen and (max-width: $media-width){
+  $scale: .7;
+  .we-are-diff-layout {
+    padding-top: 215px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
 
+    .we-are-diff-block {
+      //height: 393px;
+      //opacity: 0;
+      //transition: opacity 1.5s, transform 1.5s;
+      //transform: translate(-100px);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 350px;
+
+      &__header {
+        font-size: calc(50px * #{$scale});
+        letter-spacing: calc(1.13px * #{$scale});
+        line-height: calc(66px * #{$scale});
+        width: 350px;
+        //height: 80px;
+        //width: 470px;
+      }
+
+      &__description {
+        //height: 300px;
+        //width: 470px;
+        width: auto;
+        font-size: calc(20px * 0.9);
+        letter-spsacing: calc(0.71px * 0.8);
+        line-height: calc(30px * #{$scale});
+        padding-top: 25px;
+        padding-left: 28px;
+
+        .mark-diff {
+          color: #06C6FF;
+        }
+      }
+    }
+  }
 }
