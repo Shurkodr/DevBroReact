@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "698d4469f5d11fac238047402e7428b5",
+    "revision": "4c17c8b93a5d8db241dc92aae310fc4a",
     "url": "/DevBroReact/index.html"
   },
   {
-    "revision": "16d352be72b3bf6b151d",
-    "url": "/DevBroReact/static/css/main.a4bd86fa.chunk.css"
+    "revision": "6c6edf4ddafc3f16d18b",
+    "url": "/DevBroReact/static/css/main.6c4700d1.chunk.css"
   },
   {
-    "revision": "3e18ae3b9c255bf2a7b8",
-    "url": "/DevBroReact/static/js/2.28715da1.chunk.js"
+    "revision": "7115988e099217e9410a",
+    "url": "/DevBroReact/static/js/2.7150373f.chunk.js"
   },
   {
     "revision": "e928fe768baa9832b5bc57eae021f30c",
-    "url": "/DevBroReact/static/js/2.28715da1.chunk.js.LICENSE"
+    "url": "/DevBroReact/static/js/2.7150373f.chunk.js.LICENSE"
   },
   {
-    "revision": "16d352be72b3bf6b151d",
-    "url": "/DevBroReact/static/js/main.e8451cb0.chunk.js"
+    "revision": "6c6edf4ddafc3f16d18b",
+    "url": "/DevBroReact/static/js/main.9a87cf34.chunk.js"
   },
   {
     "revision": "1e9c417e4aa72a41936c",
@@ -28,8 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/DevBroReact/static/media/logo.77f8732a.svg"
   },
   {
+    "revision": "3916465b41f93e3ecf6468c926d6cf7d",
+    "url": "/DevBroReact/static/media/mail.3916465b.svg"
+  },
+  {
     "revision": "d9ef1a05e9d0f5dd62b60d5e3e2b985c",
     "url": "/DevBroReact/static/media/mail.d9ef1a05.svg"
+  },
+  {
+    "revision": "7a6a9e4e3584a74a96d28e828a2fb22e",
+    "url": "/DevBroReact/static/media/phone.7a6a9e4e.svg"
   },
   {
     "revision": "8a6a6783cf4c3e1c056cbdf89a125a90",
