@@ -41,6 +41,7 @@ $height-of-nav-bar: 19px;
       &__item{
         white-space: nowrap;
         position: relative;
+        text-align: left;
 
         .submenu-list {
           list-style-type: none;

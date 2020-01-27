@@ -1,0 +1,114 @@
+.footer-layout {
+  min-height: 412px;
+  background: linear-gradient(349.68deg, #1B222A 0%, #2B506E 100%);
+  padding-top: 60px;
+  padding-left: 20px;
+
+  .footer-container {
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+
+      .contact-us {
+        min-width: 210px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+
+        &__logo {
+          width: 70px;
+          height: 41px;
+
+          .logo-link {
+            display: inline-block;
+            text-decoration: none;
+            height: 100%;
+          }
+        }
+
+        &__contact {
+          padding-top: 20px;
+          height: 24px;
+          box-sizing: content-box;
+          color: #FFFFFF;
+          font-family: ".SF NS Display",sans-serif;
+          font-size: 16px;
+          display: flex;
+          align-items: center;
+
+          .contact-icon {
+            margin-right: 10px;
+          }
+        }
+      }
+
+      .navigation-bar {
+
+        .navigation-list {
+          display: flex;
+          list-style-type: none;
+
+          &__item {
+            margin-right: 20px;
+
+            @mixin hover-triangle($color) {
+              content: "";
+              display: inline-block;
+              box-sizing: border-box;
+              width: 6.5px;
+              height: 3px;
+              border: 3px solid transparent;
+              border-top: 3px solid $color;
+              margin-left: 4px;
+            }
+
+            .dropdown {
+              display: inline-block;
+
+              &:after {
+                @include hover-triangle (#fff);
+              }
+            }
+
+            .nav-link {
+              text-decoration: none;
+              height: 16px;
+              width: 57px;
+              color: #FFFFFF;
+              font-family: Roboto,sans-serif;
+              font-size: 14px;
+              letter-spacing: 0.5px;
+              line-height: 16px;
+              text-align: center;
+
+              &:hover {
+                color: #0fafcf;
+
+                &+.dropdown:after {
+                  @include hover-triangle (#0fafcf);
+                }
+              }
+            }
+
+            .submenu-list {
+              list-style-type: none;
+              margin: 10px 0 0 10px;
+
+              &__item {
+
+                .nav-link {
+                  color: #BCBCBC;
+
+                  &:hover {
+                    color: #0fafcf;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

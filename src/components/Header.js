@@ -73,7 +73,31 @@ class Header extends Component {
                   <a className="nav-link" href="#">Web Development</a>
                 </li>
                 <li className="submenu-list__item">
-                  <a className="nav-link" href="#">123</a>
+                  <a className="nav-link" href="#">Mobile Development</a>
+                </li>
+                <li className="submenu-list__item">
+                  <a className="nav-link" href="#">QA Automation & Testing</a>
+                </li>
+                <li className="submenu-list__item">
+                  <a className="nav-link" href="#">DevOps</a>
+                </li>
+                <li className="submenu-list__item">
+                  <a className="nav-link" href="#">UX/UI & User Testing</a>
+                </li>
+                <li className="submenu-list__item">
+                  <a className="nav-link" href="#">Big Data & Analytics</a>
+                </li>
+                <li className="submenu-list__item">
+                  <a className="nav-link" href="#">Graphic Design</a>
+                </li>
+                <li className="submenu-list__item">
+                  <a className="nav-link" href="#">Remote Administration</a>
+                </li>
+                <li className="submenu-list__item">
+                  <a className="nav-link" href="#">IT Consulting</a>
+                </li>
+                <li className="submenu-list__item">
+                  <a className="nav-link" href="#">Outsource team building</a>
                 </li>
               </ul>
             </li>
